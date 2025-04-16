@@ -34,6 +34,12 @@ ros2 service type /turtle1/teleport_absolute
 ```
 ![Turtlesim node 실행 예시](images/ros2_service_info.png)
 
+### ROS2 인터페이스 구조 확인 (`interface show`)
+```
+ros2 interface show turtlesim/srv/TeleportAbsolute
+```
+![Turtlesim service 실행 예시](images/ros2_service_interface.png)
+
 ### 1_Terminal
 ```
 ros2 run turtlesim turtlesim_node
