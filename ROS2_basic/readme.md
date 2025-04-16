@@ -1,4 +1,11 @@
-## ROS2 입문 실습: Turtlesim 노드 실행 결과
+# ROS2 입문 실습
+
+## turtlesim install
+```
+sudo apt install ros-jazzy-turtlesim
+```
+
+## turtlesim node 실행 결과
 
 ### 1_Terminal
 ```
