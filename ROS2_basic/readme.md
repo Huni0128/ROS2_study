@@ -42,7 +42,7 @@ ros2 run turtlesim turtlesim_node
 ```
 ros2 service call /turtle1/teleport_absolute turtlesim/srv/TeleportAbsolute "{x: 2,y: 2,theta: 1.57}"
 ```
-![Turtlesim service 실행 예시](images/ros2_service.png)
+![Turtlesim service 실행 예시](images/ros2_service_call.png)
 
 
 
