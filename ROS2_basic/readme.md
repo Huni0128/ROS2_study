@@ -5,7 +5,7 @@
 sudo apt install ros-jazzy-turtlesim
 ```
 
-## turtlesim node 실행 결과
+## turtlesim Node 실행 결과
 
 ### ROS 2 Node 정보 조회 예제 (`ros2 node info`)
 ```
