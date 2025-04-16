@@ -12,7 +12,7 @@ sudo apt install ros-jazzy-turtlesim
 ros2 node list
 ros2 node info /turtlesim
 ```
-![Turtlesim node 실행 예시](images/ros2_node.png)
+![Turtlesim node 실행 예시](images/ros2_node_info.png)
 
 ### 1_Terminal
 ```
@@ -23,7 +23,6 @@ ros2 run turtlesim turtlesim_node
 ```
 ros2 node list
 ```
-
 ![Turtlesim node 실행 예시](images/run_turtle_and_node_list.png)
 
 ## Turtlesim Service 실행 결과
@@ -33,6 +32,7 @@ ros2 node list
 ros2 service list
 ros2 service type /turtle1/teleport_absolute
 ```
+![Turtlesim node 실행 예시](images/ros2_service_info.png)
 
 ### 1_Terminal
 ```
