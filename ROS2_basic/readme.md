@@ -12,6 +12,7 @@ sudo apt install ros-jazzy-turtlesim
 ros2 node list
 ros2 node info /turtlesim
 ```
+![Turtlesim node 실행 예시](images/ros2_node.png)
 
 ### 1_Terminal
 ```
