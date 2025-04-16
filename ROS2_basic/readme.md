@@ -40,6 +40,12 @@ ros2 interface show turtlesim/srv/TeleportAbsolute
 ```
 ![Turtlesim service 실행 예시](images/ros2_service_interface.png)
 
+### turtle2 생성: spawn 서비스 호출 예제 (`ros service spawn`)
+```
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 1,y: 1,theta: 0, name: ''}"
+```
+![Turtlesim service 실행 예시](images/ros2_service_spawn.png)
+
 ### 1_Terminal
 ```
 ros2 run turtlesim turtlesim_node
