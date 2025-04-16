@@ -17,7 +17,7 @@ ros2 node list
 ```
 ros2 run turtlesim turtlesim_node
 ```
-###2_Terminal
+### 2_Terminal
 ```
 ros2 service call /turtle1/teleport_absolute turtlesim/srv/TeleportAbsolute "{x: 2,y: 2,theta: 1.57}"
 ```
