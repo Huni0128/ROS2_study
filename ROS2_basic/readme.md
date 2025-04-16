@@ -28,6 +28,12 @@ ros2 node list
 
 ## Turtlesim Service 실행 결과
 
+### ROS 2 Service 정보 조회 예제 (`ros2 service info`)
+```
+ros2 service list
+ros2 service type /turtle1/teleport_absolute
+```
+
 ### 1_Terminal
 ```
 ros2 run turtlesim turtlesim_node
