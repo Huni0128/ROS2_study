@@ -7,6 +7,6 @@ ros2 run turtlesim turtlesim_node
 ### 2_Terminal
 ```
 ros2 node list
-'''
+```
 
 ![Turtlesim 실행 예시](images/run_turtle_and_node_list.png)
