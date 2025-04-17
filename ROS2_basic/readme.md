@@ -101,3 +101,4 @@ ros2 action list -t
 ros2 interface show turtlesim/action/RotateAbsolute
 ```
 ![RotateAbsolute 액션 구조 확인](images/ros2_action_interface.png)
+![RotateAbsolute 액션 시연 영상 (GIF)](videos/ros2_rotate_absolute.gif) 
