@@ -79,7 +79,7 @@ ros2 interface show geometry_msgs/msg/Twist
 ```
 ![Turtlesim service 실행 예시](images/ros2_topic_twist.png)
 
-#### Turtlesim topic 명령어 실행 결과
+### Turtlesim topic 명령어 실행 결과
 ```
 ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0,y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}"
 ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0,y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 1.8}}"
