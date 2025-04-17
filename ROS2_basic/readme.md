@@ -56,5 +56,16 @@ ros2 service call /turtle1/teleport_absolute turtlesim/srv/TeleportAbsolute "{x:
 ```
 ![Turtlesim service 실행 예시](images/ros2_service_call.png)
 
+### ros2 topic 및 interface 명령어 실습
+```
+ros2 topic list
+ros2 topic type /turtle1/pose
+ros2 topic list -t
+ros2 topic info /turtle1/pose
+ros2 topic list -v
+ros2 interface show turtlesim/msg/Pose
+```
+
+![Turtlesim service 실행 예시](images/ros2_topic_debug.png)
 
 
