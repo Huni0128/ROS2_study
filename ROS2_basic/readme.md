@@ -7,7 +7,7 @@ sudo apt install ros-jazzy-turtlesim
 
 ## Turtlesim Node 실행 결과
 
-### ROS2 Node 정보 조회 예제 (`ros2 node info`)
+### Node info 조회 예제
 ```
 ros2 node list
 ros2 node info /turtlesim
@@ -27,20 +27,20 @@ ros2 node list
 
 ## Turtlesim Service 실행 결과
 
-### Service info 조회 예제 (`ros2 service info`)
+### Service info 조회 예제
 ```
 ros2 service list
 ros2 service type /turtle1/teleport_absolute
 ```
 ![Turtlesim node 실행 예시](images/ros2_service_info.png)
 
-### Interface 구조 확인 (`interface show`)
+### Interface 구조 확인
 ```
 ros2 interface show turtlesim/srv/TeleportAbsolute
 ```
 ![Turtlesim service 실행 예시](images/ros2_service_interface.png)
 
-### Turtle2 생성: spawn service 호출 예제 (`ros service spawn`)
+### Turtle2 생성: spawn service 호출 예제
 ```
 ros2 service call /spawn turtlesim/srv/Spawn "{x: 1,y: 1,theta: 0, name: ''}"
 ```
@@ -67,7 +67,7 @@ ros2 interface show turtlesim/msg/Pose
 ```
 ![Turtlesim service 실행 예시](images/ros2_topic_debug.png)
 
-### Topic message 실시간 출력 (`topic echo`)
+### Topic message 실시간 출력
 ```
 ros2 topic echo /turtle1/pose
 ```
