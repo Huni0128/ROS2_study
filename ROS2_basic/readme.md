@@ -67,7 +67,7 @@ ros2 interface show turtlesim/msg/Pose
 ```
 ![Turtlesim service 실행 예시](images/ros2_topic_debug.png)
 
-### 토픽 메시지 실시간 출력 (topic echo)
+### 토픽 메시지 실시간 출력 (`topic echo`)
 ```
 ros2 topic echo /turtle1/pose
 ```
