@@ -92,3 +92,4 @@ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2
 ros2 run turtlesim turtle_teleop_key
 ```
 ![Turtlesim service 실행 예시](videos/ros2_action_key.gif)
+!(images/ros2_action_key_result_rqt.png)
