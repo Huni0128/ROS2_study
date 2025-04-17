@@ -93,3 +93,11 @@ ros2 run turtlesim turtle_teleop_key
 ```
 ![Turtlesim 키보드 제어 실행 영상 (GIF)](videos/ros2_action_key.gif) 
 ![RQT 그래프 상의 토픽 흐름 확인](images/ros2_action_key_result_rqt.png)
+
+### Turtlesim 액션 명령어 실습
+```
+ros2 action list
+ros2 action list -t
+ros2 interface show turtlesim/action/RotateAbsolute
+```
+![RotateAbsolute 액션 구조 확인](images/ros2_action_interface.png)
